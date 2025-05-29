@@ -31,4 +31,45 @@ This project leverages the [Hugging Face Empathetic Dialogues](https://huggingfa
 ---
 
 ## 📁 Project Structure
+``` text
+EmpatheticEchoes/
+├── data/
+│ ├── raw/ # Original Hugging Face dataset
+│ └── processed/ # Preprocessed JSON files for training
+├── models/
+│ └── gpt2_finetuned/ # Trained model and tokenizer
+├── src/
+│ ├── data_preprocessing.py # Prepares and tokenizes dataset
+│ ├── model_training.py # Fine-tunes GPT-2 on dialogue data
+│ ├── inference.py # Emotion-aware response generation
+│ ├── evaluate_model.py # BLEU, ROUGE metrics evaluation
+│ ├── gui_app.py # Streamlit web app
+│ └── inspect_dataset.py # Dataset exploration/debugging
+├── mlflow_runs/ # MLFlow logs and tracking artifacts
+├── requirements.txt # Python dependencies
+└── README.md # This file
+```
+
+---
+
+## 🔧 How It Works
+
+### ✅ Data Preprocessing
+
+```bash
+python src/data_preprocessing.py
+```
+- Downloads and prepares the Empathetic Dialogues dataset.
+- Formats conversations as input-output pairs.
+- Tags each dialogue with the corresponding emotion ([proud], [anxious], etc.).
+
+### ✅ Training the Model
+
+```bash
+cd /gpfs/home/bol2142/GenAI_Text_Chatbot
+PYTHONPATH=$(pwd) python src/model_training.py
+```
+- Fine-tunes GPT-2 on the processed dialogues.
+- Special tokens represent emotions to guide the model.
+- Tracked with MLFlow to log metrics, configs, and checkpoints.
 
