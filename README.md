@@ -98,6 +98,8 @@ streamlit run src/gui_app.py
 - Users can select an emotion or let the bot infer one.
 - Real-time, multi-turn conversation support.
 
+_Note: For the trained model use the below link
+https://drive.google.com/drive/folders/18yTUZVUxPhXAWSTzuhZYr6ZWdVqRVc7L?usp=drive_link_
 ## 📊 Evaluation Results
 | Metric      | Score  |
 | ----------- | ------ |
