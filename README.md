@@ -1,4 +1,4 @@
-# 🧠 Empathetic Echoes – Emotion-Aware Psychiatric Chatbot
+# Empathetic Echoes – Emotion-Aware Psychiatric Chatbot
 
 > “The most important thing in communication is hearing what isn't said.” – Peter Drucker  
 >  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 
 **Empathetic Echoes** is an advanced, emotion-aware psychiatric chatbot designed to simulate empathetic conversations using a fine-tuned GPT-2 model. It generates responses that reflect **emotional intelligence**, **contextual memory**, and **compassionate tone**, aiming to emulate therapist-like interactions.
 
@@ -17,20 +17,20 @@ This project leverages the [Hugging Face Empathetic Dialogues](https://huggingfa
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
 | Feature | Description |
 |--------|-------------|
-| 🤖 Emotion-Aware Responses | Responses conditioned on 30+ emotional labels |
-| 🎯 Contextual Memory | Retains dialogue history for relevant responses |
-| 🧠 GPT-2 Backbone | Lightweight yet expressive Transformer model |
-| 📊 MLFlow Integration | Track experiments, metrics, and checkpoints |
-| 🖥️ Streamlit Interface | Chat via a user-friendly web UI |
-| 📈 BLEU & ROUGE Evaluation | Measures model performance quantitatively |
+|  Emotion-Aware Responses | Responses conditioned on 30+ emotional labels |
+|  Contextual Memory | Retains dialogue history for relevant responses |
+|  GPT-2 Backbone | Lightweight yet expressive Transformer model |
+|  MLFlow Integration | Track experiments, metrics, and checkpoints |
+|  Streamlit Interface | Chat via a user-friendly web UI |
+|  BLEU & ROUGE Evaluation | Measures model performance quantitatively |
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ``` text
 EmpatheticEchoes/
 ├── models/
@@ -49,7 +49,7 @@ EmpatheticEchoes/
 
 ---
 
-## 🔧 How It Works
+##  How It Works
 
 ### ✅ Data Preprocessing
 
@@ -100,7 +100,7 @@ streamlit run src/gui_app.py
 
 _Note: For the trained model use the below link
 https://drive.google.com/drive/folders/18yTUZVUxPhXAWSTzuhZYr6ZWdVqRVc7L?usp=drive_link_
-## 📊 Evaluation Results
+## Evaluation Results
 | Metric      | Score  |
 | ----------- | ------ |
 | **BLEU**    | 0.0080 |
