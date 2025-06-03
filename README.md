@@ -107,7 +107,7 @@ streamlit run src/gui_app.py
 | **ROUGE-L** | 0.1180 |
 
 
-##🧪 Sample Dialogue
+## Sample Dialogue
 <img width="1512" alt="Screenshot 2025-06-03 at 09 37 11" src="https://github.com/user-attachments/assets/4fcac436-f468-4d18-bc05-c6564a6a1e53" />
 
 ## Installation Guide
