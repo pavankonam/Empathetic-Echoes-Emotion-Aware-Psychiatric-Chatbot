@@ -115,7 +115,7 @@ https://drive.google.com/drive/folders/18yTUZVUxPhXAWSTzuhZYr6ZWdVqRVc7L?usp=dri
 ## Installation Guide
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/pavankonam/empathetic-echoes.git
+git clone https://github.com/pavankonam/Empathetic-Echoes-Emotion-Aware-Psychiatric-Chatbot.git
 cd empathetic-echoes
 ```
 ### 2. Install Dependencies
